@@ -3,5 +3,7 @@ clear
 
 rustc rsmod.rs \
 	--crate-type cdylib \
+	--codegen debuginfo=0 \
+	-O \
 	-o rsmod.so
 	
