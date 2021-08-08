@@ -1,0 +1,6 @@
+#!/bin/bash
+
+g++ \
+	-fPIC -shared \
+	cmod.cpp \
+	-o cmod.so \
