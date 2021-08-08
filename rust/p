@@ -1,0 +1,7 @@
+#!/bin/bash
+clear
+
+rustc rsmod.rs \
+	--crate-type cdylib \
+	-o rsmod.so
+	
